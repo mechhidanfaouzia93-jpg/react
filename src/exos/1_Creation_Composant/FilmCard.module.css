@@ -1,0 +1,40 @@
+.card {
+  width: 25%;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  gap: 3rem;
+  margin: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
+
+.poster {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.1rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.realisator,
+.year {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  opacity: 0.85;
+}
+
+.heart{
+  margin-top: 6px;
+  font-size: 1rem;
+}

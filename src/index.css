@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 90%;
+    margin: auto;
+}
+
+.grey-text {
+    color : rgb(105, 125, 154);
+    font-weight: lighter;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-3 {
+    gap : 3rem;
+}
+
+.h2{
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 4rem;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.paraphOne{
+  color: blue;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.paraphTwo{
+  color: rgb(119, 119, 228);
+  font-weight: bolder;
+  font-style: oblique;
+}

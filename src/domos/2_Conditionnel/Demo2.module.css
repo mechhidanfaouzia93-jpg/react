@@ -1,0 +1,33 @@
+.nopet {
+    background-color: lightcoral;
+    margin : 0.5rem;
+    padding: 1rem;
+
+}
+.dog{
+    background: url('/src/assets/images/chats-pattes.webp');
+   
+}
+.inside{
+    width: 100% ;
+    background-color: antiquewhite;
+    border-radius: 0.75rem;
+    padding: 1rem;
+
+
+}
+
+
+.pet {
+    background-color: rgb(114, 138, 146);
+     margin : 0.5rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
