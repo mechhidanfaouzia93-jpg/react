@@ -10,6 +10,8 @@ import { Burger } from './exos/1_Creation_Composant/exo-4'
 import { Demo6 } from './domos/6_Formulaires/Demo6'
 import { Demo6Bis } from './domos/6_Formulaires/Demo6Bis'
 import { Demo6Lib } from './domos/6_Formulaires/Demo6Lib'
+import { ExoFormulaire } from './exos/1_Creation_Composant/exo-formulaire'
+import { Demo7 } from './domos/7_Interaction/Demo7'
 
 
 function App() {
@@ -59,11 +61,15 @@ function App() {
  {/* <Demo5 /> */}
 
  {/* <Burger /> */}
- <Demo6 />
+ {/* <Demo6 />
 
  <Demo6Bis />
 
- <Demo6Lib />
+ <Demo6Lib /> */}
+
+ {/* <ExoFormulaire /> */}
+
+<Demo7 />
 
     </>
   )
