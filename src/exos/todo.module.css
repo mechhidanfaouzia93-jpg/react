@@ -1,0 +1,42 @@
+.red {
+    color: red;
+}
+
+.button {
+    padding: 6px 12px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.5 ease;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid #ebc9c9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0c2c2;
+
+
+}
+
+/* .paraph{
+    display: flex;
+    flex-direction: row;
+} */
+

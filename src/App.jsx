@@ -1,17 +1,8 @@
 
 import './App.css'
-import { Demo2 } from './domos/2_Conditionnel/Demo2'
-import { Demo3 } from './domos/3_Collections/Demo3'
-import { Demo4 } from './domos/4_Events/Demo4'
-import { Demo5 } from './domos/5_State/Demo5'
-import { Exercice2 } from './exos/1_Creation_Composant/ex-2'
-import { FilmsEx } from './exos/1_Creation_Composant/FilmEx'
-import { Burger } from './exos/1_Creation_Composant/exo-4'
-import { Demo6 } from './domos/6_Formulaires/Demo6'
-import { Demo6Bis } from './domos/6_Formulaires/Demo6Bis'
-import { Demo6Lib } from './domos/6_Formulaires/Demo6Lib'
-import { ExoFormulaire } from './exos/1_Creation_Composant/exo-formulaire'
-import { Demo7 } from './domos/7_Interaction/Demo7'
+import { TodoForm } from './exos/TodoForm'
+
+
 
 
 function App() {
@@ -69,7 +60,9 @@ function App() {
 
  {/* <ExoFormulaire /> */}
 
-<Demo7 />
+{/* <Demo7 /> */}
+
+<TodoForm />
 
     </>
   )

@@ -10,7 +10,7 @@
 }
 
 .grey-text {
-    color : rgb(105, 125, 154);
+    color: rgb(105, 125, 154);
     font-weight: lighter;
 }
 
@@ -35,20 +35,21 @@
 }
 
 .gap-3 {
-    gap : 3rem;
+    gap: 3rem;
 }
 
-.h2{
-  font-size: 4rem;
-  font-weight: bold;
-  margin: 4rem;
-  text-align: center;
+.h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 4rem;
+    text-align: center;
 }
 
-.margin-3{
+.margin-3 {
     margin: 3rem;
 }
-.padding-1{
+
+.padding-1 {
     padding: 3rem;
 }
 
@@ -63,6 +64,7 @@
     transition: background-color 0.3s ease;
     margin-left: 3rem;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -74,17 +76,43 @@
     width: 400px;
     border-radius: 8px;
     background-color: rgb(168, 199, 228);
-    
-    }
 
-    .border{
-        border : 2px solid rgb(98, 98, 235);
-    }
-    .border-radius{
-        border-radius : 0.5rem;
-    }
-    .label {
+}
 
-  margin-bottom: 5px;
-  margin-left: 2rem;
+.border {
+    border: 2px solid rgb(98, 98, 235);
+}
+
+.border-radius {
+    border-radius: 0.5rem;
+}
+
+.label {
+
+    margin-bottom: 5px;
+    margin-left: 2rem;
+}
+.container {
+  width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-content: center;
+   gap: 1rem;
+   
+    border: 2px solid #d8b9b9;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #e2dada;
+    border-radius: 5px;
+
+    h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
 }
