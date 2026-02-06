@@ -1,6 +1,8 @@
 
 import './App.css'
 import { TodoForm } from './exos/TodoForm'
+import { LaVie } from './domos/8_Cycle_De_Vie/LaVie'
+import { ProjetTricot } from './exos/1_Creation_Composant/projet'
 
 
 
@@ -62,7 +64,12 @@ function App() {
 
 {/* <Demo7 /> */}
 
-<TodoForm />
+{/* <TodoForm /> */}
+
+{/* <LaVie /> */}
+
+<ProjetTricot />
+
 
     </>
   )

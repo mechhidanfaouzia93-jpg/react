@@ -54,7 +54,7 @@
 }
 
 .button {
-    padding: 1rem 2rem;
+    padding: 0.6rem 2rem;
     border: none;
     background-color: rgb(22, 104, 197);
     color: white;
@@ -62,18 +62,18 @@
     cursor: pointer;
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
-    margin-left: 3rem;
+    margin: 1rem;
 }
 
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 2rem;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    width: 400px;
+    width: 50%;
     border-radius: 8px;
     background-color: rgb(168, 199, 228);
 

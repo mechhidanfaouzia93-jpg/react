@@ -15,6 +15,14 @@ export const TodoForm = () => {
       priorite: "normale",
     },
   });
+  // const filterToDo = ()=>{
+  //   if(filter==='high'){
+  //     return todos.filter(todo=>)
+  //   }
+  //   else if (filter ===''){
+      
+  //   }
+  // }
 
   const onSubmit = (data) => {
     
@@ -73,6 +81,9 @@ export const TodoForm = () => {
           />
         ))}
       </div>
+      {/* {
+        filterToDo().map
+      } */}
     </div>
   );
 };
