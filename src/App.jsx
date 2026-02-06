@@ -4,7 +4,7 @@ import { TodoForm } from './exos/TodoForm'
 import { LaVie } from './domos/8_Cycle_De_Vie/LaVie'
 import { ProjetTricot } from './exos/1_Creation_Composant/projet'
 
-
+import { Pokedex } from './domos/9_API/Pokedex'
 
 
 function App() {
@@ -68,7 +68,9 @@ function App() {
 
 {/* <LaVie /> */}
 
-<ProjetTricot />
+{/* <ProjetTricot /> */}
+
+<Pokedex />
 
 
     </>
